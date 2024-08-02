@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(VirtoolsSDK LANGUAGES CXX VERSION 2.1.0)
+project(VirtoolsSDK LANGUAGES CXX VERSION 3.5.0)
 
 set(CMAKE_CXX_STANDARD 98)
 set(CMAKE_CXX_STANDARD_REQUIRED NO)
