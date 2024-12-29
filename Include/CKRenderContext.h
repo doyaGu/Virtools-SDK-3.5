@@ -1399,9 +1399,6 @@ See also: SetViewRect
 	GPU parallelism for maximum performance.
 	***********************************************************/
 	virtual BOOL	FlushPendingGPUCommands() = 0;
-	
-	
-	CKShaderManager*	m_ShaderManager;
 };
 
 #endif 
