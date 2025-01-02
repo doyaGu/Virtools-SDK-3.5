@@ -595,4 +595,9 @@ public:
     XDWORD d2;
 };
 
+//---- Aligned memory allocation
+VX_EXPORT void *VxNewAligned(int size, int align);
+VX_EXPORT void VxDeleteAligned(void *ptr);
+VX_EXPORT BOOL VxIsAllocatedByNewAligned(void *ptr, int alignement);
+
 #endif
