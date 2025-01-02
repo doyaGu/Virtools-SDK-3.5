@@ -356,7 +356,7 @@ public:
     See also: RemoveAllLayers, AddLayer, GetLayer, GetLayerCount
     ************************************************/
     virtual CKERROR RemoveLayer(int type) CK_PURE;
-    virtual CKERROR RemoveLayer(CKSTRING TypeName) CK_PURE;
+    virtual CKERROR RemoveLayerByName(CKSTRING TypeName) CK_PURE;
 
     /************************************************
     Summary: Removes all the layers from the grid
